@@ -19,10 +19,10 @@ function renderLogOutButton() {
 const UserInfo = () => {
     return (
         <View style={{flex: 1, backgroundColor:'#2f3030'}}>
-          <View style={{top: 40, left: 30}}>
+          <View style={{top: 50, left: 20}}>
             <Text style={{fontFamily: 'IndieFlower', fontSize: 35, color: '#ffff'}}>Moments</Text>
           </View>
-          <View style={{top:50, left: 20, flexDirection: 'row', borderBottomColor: '#b0afae', borderBottomWidth: 0.3}}>
+          <View style={{top:60, left: 20, flexDirection: 'row', borderBottomColor: '#b0afae', borderBottomWidth: 0.3}}>
             <Image 
               source={require("../assets/images/profile.jpg")}
               style={{
@@ -43,7 +43,7 @@ const UserInfo = () => {
             </View>
           </View>
 
-            <View style={{top: 70, left: 30, borderBottomColor: '#b0afae', borderBottomWidth: 0.3, height: 120}}>
+            <View style={{top: 80, left: 20, borderBottomColor: '#b0afae', borderBottomWidth: 0.3, height: 120}}>
               <Text style={{fontFamily: 'lato-bold', fontSize: 18, color: '#ffff'}}>Friends</Text>
               <TouchableOpacity style={{backgroundColor: '#cacccb', width: '87%', height: 35, top: 10, borderRadius: 5, justifyContent: 'center'}}>
                 <View style={{flexDirection: 'row', left: 10}}>
@@ -66,7 +66,7 @@ const UserInfo = () => {
 
             {/* spotify account connect */}
 
-            <View style={{top: 85, left: 30}}>
+            <View style={{top: 95, left: 20}}>
               <Text style={{fontFamily: 'lato-bold', fontSize: 18, color: '#ffff'}}>Spotify Account</Text>
               <TouchableOpacity style={{backgroundColor: '#cacccb', width: '87%', height: 45, top: 10, borderRadius: 5, justifyContent: 'center'}}>
                 <View style={{flexDirection: 'row', left: 10, alignItems: 'center'}}>

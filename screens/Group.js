@@ -6,8 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 function renderHeader() {
     return (
-        <View style={{marginLeft: 15, top: 50, marginBottom: 20}}>
-            <Text style={{fontSize: 35, fontFamily: 'IndieFlower'}}>Moments</Text>
+        <View style={{marginLeft: 20, top: 50, marginBottom: 20}}>
+            <Text style={{fontSize: 33, fontFamily: 'IndieFlower'}}>Moments</Text>
         </View>
     )
 }
@@ -24,7 +24,7 @@ const Group = ({navigation}) => {
         <ImageBackground source={require('../assets/images/groupbackground.jpg')} resizeMode="cover" style={{width: '100%', height: '100%'}}>
         <View style={{flex: 1}}>
             {renderHeader()}
-            <View style={{marginTop: 40, marginLeft: 10}}>
+            <View style={{marginTop: 40}}>
                 <FlatList 
                     data={groupData}
                     keyExtractor={item=>item.id}
